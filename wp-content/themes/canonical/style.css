@@ -1,0 +1,712 @@
+/*
+Theme Name: Canonical
+Theme URI: http://wordpress.org/extend/themes/canonical
+Description: Canonical is a Child Theme built for Responsive. Theme incorporates all Responsive's functionalities and it features clean, modern look.
+Template: responsive
+Version: 2.0.2
+Author: grapplerulrich
+Author URI: http://ulrich.pogson.ch/
+Text Domain: canonical
+Tags: white, black, gray, light, custom-menu, custom-header, custom-background, one-column, two-columns, left-sidebar, right-sidebar, flexible-width, theme-options, threaded-comments, full-width-template, sticky-post, translation-ready, flexible-width, rtl-language-support
+
+License: GNU General Public License
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+
+Responsive WordPress Theme, Copyright (C) 2003-2013 Emil Uzelac 
+*/
+
+
+/* =Base
+-------------------------------------------------------------- */
+body {
+	background: #eff1f2 url(images/bg-home.png) center top no-repeat;
+	color: #080808;
+	font-family: 'Lato', sans-serif;
+}
+
+/* =Globals
+-------------------------------------------------------------- */
+#wrapper {
+	-moz-box-shadow: 0 0 15px rgba(0, 0, 0, 0.13);
+	-webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.13);
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	background-color: #fff;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.13);
+	border-radius: 0;
+	border: none;
+	border-bottom: 8px solid #c4c4c4;
+	border-top: 8px solid #abc40b;
+	padding: 30px;
+}
+
+.front-page #wrapper {
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border: none;
+	padding: 0;
+}
+
+.ie7 #wrapper {
+	max-width: 981px;
+}
+
+/* =Logo
+-------------------------------------------------------------- */
+#logo {
+	background: #23241f;
+	background: rgba(35, 36, 31, 0.75);
+	margin-bottom: 20px;
+	padding: 10px 24px;
+}
+
+/* =Header Menu (Primary)
+-------------------------------------------------------------- */
+.menu {
+	background: #23241f;
+	background: rgba(35, 36, 31, 0.75);
+	background-image: none;
+	filter: none;
+}
+
+.menu a {
+	border-color: #373e3e;
+	color: #fff;
+	text-shadow: none;
+}
+
+.menu a:hover {
+	background: #c4620c;
+	background: rgba(225, 96, 58, 0.75);
+	background-image: none;
+	color: #fff;
+	filter: none;
+}
+
+.menu .current_page_item a {
+	background: #c4620c;
+	background: rgba(225, 96, 58, 0.75);
+	color: #fff;
+}
+
+.home .menu .current_page_item a {
+	color: #fff;
+}
+
+.menu .sub-menu a {
+	color: #444;
+}
+
+.menu li li {
+	border-color: #eee;
+}
+
+.menu li li a {
+	color: #444 !important;
+}
+
+.menu li li a:hover {
+	background-color: #e8f4fd !important;
+}
+
+/* =Responsive Menu
+   TinyNav + SelectBox
+-------------------------------------------------------------- */
+.tinynav,
+.sb-holder { 
+	display: none 
+}
+
+/* =Sub-Header Menu
+-------------------------------------------------------------- */
+.sub-header-menu {
+	background: #fff;
+	background: rgba(255, 255, 255, 0.75);
+	border: none;
+}
+
+.sub-header-menu a {
+	color: #080808;
+	font-size: 12px;
+	font-weight: 400;
+	height: 33px;
+	line-height: 33px;
+}
+
+.sub-header-menu a:hover {
+	background: #f9f9f9;
+	background: rgba(249, 249, 249, 0.75);
+}
+
+.sub-header-menu .current_page_item a,
+.sub-header-menu .current-menu-item a {
+	background: #f9f9f9;
+	background: rgba(249, 249, 249, 0.75);
+}
+
+/* =Featured (front-page.php)
+-------------------------------------------------------------- */
+#featured {
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	background-color: transparent;
+	border-radius: 0;
+	border: none;
+	width: 100%;
+}
+
+#featured p {
+	background: #23241f;
+	background: rgba(35, 36, 31, 0.75);
+	color: #fff;
+	font-size: 1.2em;
+	font-weight: 400;
+	margin: 0;
+	padding: 10px 24px;
+	text-align: left;
+	text-shadow: rgba(0, 0, 0, 0.298039) 1px 1px;
+}
+
+#featured-image {
+	background-color: #fff;
+	margin: 0;
+}
+
+#featured-middle {
+	-moz-box-shadow: 0 0 15px rgba(0, 0, 0, 0.13);
+	-webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.13);
+	background-color: #fff;
+	margin-bottom: 0;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.13);
+	border-top: 8px solid #abc40b;
+}
+
+/* =Content
+-------------------------------------------------------------- */
+#content-news {
+	-moz-box-shadow: 0 0 15px rgba(0, 0, 0, 0.13);
+	-webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.13);
+	background-color: #fff;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.13);
+	border-bottom: 8px solid #c4c4c4;
+	border-top: 1px solid #fff;
+	clear: both;
+	margin: 20px auto 20px auto;
+	max-width: 100%;
+	padding: 30px;
+	position: relative;
+}
+
+#content-news .post-title a {
+	color: #080808;
+}
+
+#content-news .post-title a:hover {
+	color: #889c09;
+}
+
+/* =Post/Meta
+-------------------------------------------------------------- */
+.post-meta-wrapper,
+.post-meta-wrapper a {
+	font-size: 12px;
+	line-height: 1.5em;
+	text-align: center; 
+}
+
+/* =Author Meta (Author's Box)
+-------------------------------------------------------------- */
+#author-meta {
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	background: none;
+	border: none;
+	border-radius: 0;
+	clear: both;
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#author-meta img {
+	display: block;
+	float: none;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#author-meta p {
+	font-size: 12px;
+	line-height: 1.5em;
+	margin: 10px 0;
+	padding: 0;
+	text-align: center;
+}
+
+#author-meta .about-author {
+	margin: 10px 0 0 0;
+	text-align: center;
+}
+
+/* =Blockquote
+-------------------------------------------------------------- */
+blockquote {
+	background: #e8f4fd;
+	border: none;
+	border-left: 4px solid #79b1d9;
+	margin: 0;
+	overflow: auto;
+	padding: 20px
+}
+
+blockquote p {
+	font-family: 'Georgia', 'Times New Roman', Times, serif;
+	font-style: italic;
+	font-size: 18px;
+	line-height: 26px;
+}
+
+.ie7 pre {
+	width: auto;
+}
+
+/* =Headings
+-------------------------------------------------------------- */
+h1 {
+	color: #080808;
+}
+
+h2 {
+	color: #96989b;
+}
+
+h6 {
+	text-transform: none;
+}
+
+/* =Titles
+-------------------------------------------------------------- */
+#featured-image-title {
+	background-color: #fff;
+	margin-top: 63px;
+	min-height: 179px;
+}
+
+.featured-title {
+	background: #abc40b;
+	background: rgba(171, 196, 11, 0.75);
+	color: #fff;
+	font-size: 3.0em;
+	font-weight: 700;
+	padding: 10px 24px;
+	text-align: left;
+	text-shadow: rgba(0, 0, 0, 0.298039) 1px 1px;
+}
+
+.featured-subtitle {
+	color: #c4a30b;
+	font-size: 2.0em;
+	text-align: center;
+}
+
+.widget-title {
+	color: #080808;
+	font-size: 1.188em;
+	padding: 0 0 10px 0;
+	text-transform: uppercase;
+}
+
+.widget-title-home h3 {
+	color: #080808;
+	font-size: 1.234em;
+	padding: 0 0 10px 0;
+	text-transform: uppercase;
+}
+
+/* =Widgets
+-------------------------------------------------------------- */
+.widget-wrapper {
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	background-color: #f7f7f7;
+	border: 1px solid #eee;
+	border-radius: 0;
+}
+
+.home .widget-wrapper {
+	background-color: #e8f4fd;
+	border: 1px solid #dbe9f3;
+}
+
+.home #widgets {
+	margin-top: 40px;
+}
+
+#widgets a {
+	color: #444;
+	font-weight: 400;
+}
+
+#widgets a:hover {
+	color: #a9550b;
+}
+
+#widgets ul li {
+	margin-left: 0;
+}
+
+.gallery-meta ul {
+	margin-left: 0;
+}
+
+.colophon-widget,
+.home .colophon-widget {
+	background-color: transparent;
+	border: none;
+	text-align: center;
+}
+
+/* =Navigation
+-------------------------------------------------------------- */
+.navigation a {
+	font-weight: 400;
+}
+
+/* =Links
+-------------------------------------------------------------- */
+a {
+	color: #697807;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #333;
+	text-decoration: none;
+}
+
+::selection {
+	background: #ff2158;
+	color: #fff;
+	text-shadow: none;
+}
+
+/* =Buttons
+-------------------------------------------------------------- */
+button, 
+a.button,
+input[type='reset'], 
+input[type='button'], 
+input[type='submit'] {
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	background-color: #c4c4c4; /* Snow 3 */
+	background-image: none;
+	box-shadow: none;
+	filter: none;
+	font-weight: 400;
+	transition: all 0.3s ease-out;
+	text-shadow: none;
+}
+
+button:hover, 
+a.button:hover,
+input[type='reset']:hover, 
+input[type='button']:hover, 
+input[type='submit']:hover {
+	background-color: #dadada;
+	background-image: none;
+	filter: none;
+}
+
+/* =Buttons (Call to Action)
+-------------------------------------------------------------- */
+.call-to-action {
+	margin: 33px 0 10px 0;
+	padding: 0;
+	text-align: left;
+}
+
+.call-to-action a.button {
+	font-size: 24px;
+	font-weight: 700;
+	padding: 15px 35px;
+	text-shadow: rgba(0, 0, 0, 0.298039) 1px 1px;
+}
+
+.call-to-action a.button:hover {
+	text-decoration: none;
+}
+
+.ie7 .call-to-action a.button {
+	padding: 11px 35px 19px 35px;
+}
+
+/* =Buttons (Colors)
+-------------------------------------------------------------- */
+a.blue {
+	background: #1874cd; /* Dodger Blue */
+	background-image: none;
+	border: none;
+	filter: none;
+}
+
+a.blue:hover {
+	background-color: #7db7f0;
+	background-image: none;
+	border: none;
+	filter: none;
+}
+
+a.red {
+	background-color: #cd0000; /* Red 4 */
+	background-image: none;
+	border: none;
+	filter: none;
+}
+
+a.red:hover {
+	background-color: #ff5656;
+	background-image: none;
+	border: none;
+	filter: none;
+}
+
+a.orange {
+	background-color: #ff7f00; /* Dark Orange 1 */
+	background-image: none;
+	border: none;
+	filter: none;
+}
+
+a.orange:hover {
+	background-color: #ffc388;
+	background-image: none;
+	border: none;
+	filter: none;
+}
+
+a.yellow {
+	background-color: #ecca06; /* Yellow Gold */
+	background-image: none;
+	border: none;
+	filter: none;
+}
+
+a.yellow:hover {
+	background-color: #fffadd;
+	background-image: none;
+	border: none;
+	filter: none;
+}
+
+a.green {
+	background-color: #2e8b57; /* Sea Green 4 */
+	background-image: none;
+	border: none;
+	filter: none;
+}
+
+a.green:hover {
+	background-color: #71d09b;
+	background-image: none;
+	border: none;
+	filter: none;
+}
+
+a.olive {
+	background-color: #838b83; /* Honey Dew 4 */
+	background-image: none;
+	border: none;
+	filter: none;
+}
+
+a.olive:hover {
+	background-color: #c9cdc9;
+	background-image: none;
+	border: none;
+	filter: none;
+}
+
+a.purple {
+	background-color: #5d478b; /* Medium Purple 4 */
+	background-image: none;
+	border: none;
+	filter: none;
+}
+
+a.purple:hover {
+	background-color: #a492c8;
+	background-image: none;
+	border: none;
+	filter: none;
+}
+
+a.pink {
+	background-color: #cd1076; /* Deep Pink 3 */
+	background-image: none;
+	border: none;
+	filter: none;
+}
+
+a.pink:hover {
+	background-color: #f471b8;
+	background-image: none;
+	border: none;
+	filter: none;
+}
+
+a.brick {
+	background-color: #b22222; /* Fire Brick */
+	background-image: none;
+	border: none;
+	filter: none;
+}
+
+a.brick:hover {
+	background-color: #e57777;
+	background-image: none;
+	border: none;
+	filter: none;
+}
+
+a.gold {
+	background-color: #8b6508; /* Dark Golden Rod 4 */
+	background-image: none;
+	border: none;
+	filter: none;
+}
+
+a.gold:hover {
+	background-color: #f3b828;
+	background-image: none;
+	border: none;
+	filter: none;
+}
+
+a.brown {
+	background-color: #8b4513; /* Saddle Brown */
+	background-image: none;
+	border: none;
+	filter: none;
+}
+
+a.brown:hover {
+	background-color: #8b4513;
+	background-image: none;
+	border: none;
+	filter: none;
+}
+
+a.silver {
+	background-color: #c0c0c0; /* Silver */
+	background-image: none;
+	border: none;
+	filter: none;
+}
+
+a.silver:hover {
+	background-color: #fff;
+	background-image: none;
+	border: none;
+	filter: none;
+}
+
+a.gray {
+	background-color: #696969; /* Dim Gray */
+	background-image: none;
+	border: none;
+	filter: none;
+}
+
+a.gray:hover {
+	background-color: #adadad;
+	background-image: none;
+	border: none;
+	filter: none;
+}
+
+a.black {
+	background-color: #080808; /* Black */
+	background-image: none;
+	border: none;
+	filter: none;
+}
+
+a.black:hover {
+	background-color: #4c4c4c;
+	background-image: none;
+	border: none;
+	filter: none;
+}
+
+/* =Comments
+-------------------------------------------------------------- */
+#respond {
+	-moz-border-right-colors: 0;
+	-webkit-border-radius: 0;
+	background-color: #f9f9f9;
+	background-image: none;
+	border: 1px solid #eee;
+	border-radius: 0;
+	filter: none;
+}
+
+.commentlist {
+	border-bottom: none;
+}
+
+.commentlist li {
+	-moz-border-right-colors: 0;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	border: 1px solid #eee;
+}
+
+.commentlist li.odd {
+	background-color: #f9f9f9;
+	padding: 10px;
+}
+
+.commentlist li.even {
+	padding: 10px;
+}
+
+.comment-body .comment-meta a {
+	color: #9f9f9f;
+}
+
+.comment-body .comment-meta a:hover {
+	color: #080808;
+}
+
+/* =Footer
+-------------------------------------------------------------- */
+#footer {
+	background-color: #3b3b3b;
+	border-top: 4px solid #c4c4c4;
+	color: #84888e;
+	max-width: 100%;
+	padding: 33px 0;
+}
+
+#footer a {
+	color: #c4c4c4;
+}
+
+#footer a:hover {
+	color: #aeb3ba;
+}
+
+#footer-wrapper {
+	display: block;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+/*The last 29 days of the month are the hardest."- Nikola Tesla*/

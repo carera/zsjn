@@ -1,0 +1,20 @@
+Version 1.0.0.1
+
+	i) Initial Release
+	
+Version 1.0.0.2
+
+	i) Added Pro Version Details.
+	ii) Minor CSS Fix	
+	
+Version 1.0.0.3
+
+	i) Minor Bug Fix, which was causing the scrollbar to appear on top search.
+	
+Version 1.0.0.4
+
+	i) [LANG] Added Missing Strings in .pot	
+	
+Version 1.0.0.5
+
+	i) [BUGFIX] Removed plugin territory dirname(__FILE__)	

@@ -1,0 +1,18 @@
+
+@font-face {
+	font-family: 'Lobster1.4Regular';
+	src: url('../fonts/lobster/lobster_1.4-webfont.eot');
+	src: local('?'), url('../fonts/lobster/lobster_1.4-webfont.woff') format('woff'), url('../fonts/lobster/lobster_1.4-webfont.ttf') format('truetype'), url('../fonts/lobster/lobster_1.4-webfont.svg#webfontcOtP3oQb') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+h1, h2, h3, h4, h5, h6, .trt_button a, #submit_msg, #submit_msg, #submit, .fourofour a, .trt_wgt_tt, #related ul li a, .logo h1 a, #slider .slider-content h2 a, .lay1 .post .postitle a, .lay1 .page .postitle a, #posts .postitle, #posts .postitle a, .znn_wgt_tt{ font-family: 'Lobster1.4Regular'!important; font-weight:normal!important; text-transform:capitalize!important;}
+
+
+.logo h1 a{ font-size:30px;}
+#topmenu ul li a{ font-size:14px;font-family: 'Lobster1.4Regular'!important; font-weight:normal!important; text-transform:capitalize!important;}
+.scroll_title{font-size:34px; margin-left:-55px!important; margin-top:10px; top:10px; display:none;position:fixed;-webkit-transform: rotate(-90deg);-moz-transform: rotate(-90deg);-ms-transform: rotate(-90deg);-o-transform: rotate(-90deg);
+/* Internet Explorer */
+zoom:1;filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}

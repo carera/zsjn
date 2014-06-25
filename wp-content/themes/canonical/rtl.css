@@ -1,0 +1,22 @@
+/*
+Theme Name: Canonical 
+See: http://codex.wordpress.org/Right_to_Left_Language_Support
+*/
+
+/* =Titles
+-------------------------------------------------------------- */
+.featured-title {
+	text-align: right;
+}
+
+/* =Featured (front-page.php)
+-------------------------------------------------------------- */
+#featured p {
+	text-align: right;
+}
+
+/* =Buttons (Call to Action)
+-------------------------------------------------------------- */
+.call-to-action {
+	text-align: right;
+}

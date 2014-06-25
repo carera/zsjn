@@ -1,0 +1,74 @@
+/*
+ Theme Name:   Twenty Fourteen Child
+ Theme URI:    http://example.com/twenty-fourteen-child/
+ Description:  Twenty Fourteen Child Theme
+ Author:       John Doe
+ Author URI:   http://example.com
+ Template:     twentyfourteen
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-fourteen-child
+*/
+
+@import url("../twentyfourteen/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+#page {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.site-header {
+  background-color: #EB9810;
+}
+
+.secondary-navigation li:hover > a, .secondary-navigation li.focus > a {
+  background-color: white; 
+  color: grey;
+}
+
+.secondary-navigation li > a, .secondary-navigation li.focus > a {
+  background-color: #EB9810;
+}
+
+.site-navigation .current_page_item > a, .site-navigation .current_page_ancestor > a, .site-navigation .current-menu-item > a, .site-navigation .current-menu-ancestor > a {
+  color: #4F4423;
+  background-color: #49A6A2;
+}
+
+.site-footer {
+  display:none;
+}
+.search-toggle {
+  display:none;
+}
+.secondary-navigation ul ul a:hover, .secondary-navigation ul ul li.focus > a {
+  background:white;
+  color: #4D4366;
+
+}
+.site:before {
+  background-color: #EB9810;
+}
+
+::selection {
+  background-color: grey;
+}
+
+.archive-header, .cat-links {
+  display:none;
+}
+#secondary {
+  background-color: #EB9810;
+}
+body {
+  background-size: 100%;
+}
+.site, .site-header {
+  max-width: 1000px;
+}
+.masthead-fixed .site-header {
+  position: relative;
+}

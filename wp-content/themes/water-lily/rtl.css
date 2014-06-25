@@ -1,0 +1,98 @@
+/*
+Theme Name: Water Lily
+
+Adding support for language written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+http://codex.wordpress.org/Right_to_Left_Language_Support
+
+*/
+
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+ul, ol {
+  	margin: 0 36px 24px 0;
+}
+li > ul,
+li > ol {
+	margin-bottom: 0;
+	margin-right: 24px;
+}
+
+textarea {
+	padding-right: 5px;
+}
+
+/* =Layout
+----------------------------------------------- */
+#site-aside  {
+	float: right;
+}
+#secondary  {
+	clear: right;
+	float: right;
+}
+#primary {
+	float: left;
+}
+
+/* =Masonry Layout
+----------------------------------------------- */
+.masonry .hentry {
+  	float: right;
+}
+
+/* =Footer
+----------------------------------------------- */
+.site-footer {
+	text-align: right;
+}
+
+/* =Navigation
+----------------------------------------------- */
+.navigation {
+	float: right;	
+}
+.navigation .nav-previous {
+	float: right;
+	text-align: right;
+}
+.navigation .nav-next {
+	float: left;
+	text-align: left;
+}
+
+/* =Comments
+----------------------------------------------- */
+
+ol.comment-list ol.children {
+	padding: 10px 10px 10px 0px;
+}
+li.comment .avatar {
+	float:  right;
+	margin: 2px 10px 0 15px;
+}
+.comment-content {
+	clear: right;	
+}
+
+/* =Reply link 
+----------------------------------------------- */
+.widget li {
+	padding: 3px 10px 3px 0;
+}
+
+
+/* =Media Queries 
+----------------------------------------------- */
+@media screen and (max-width: 790px) {
+    .menu-toggle {
+      	left: 5px;
+		text-align: left;
+    }
+}

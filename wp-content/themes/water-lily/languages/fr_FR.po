@@ -1,0 +1,308 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Water Lily v1.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-09-20 14:50+0100\n"
+"PO-Revision-Date: 2014-05-31 23:31:17+0000\n"
+"Last-Translator: Christine Rondeau\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:16
+#@ water-lily
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Désolé! La page ne peut être trouvée."
+
+#: archive.php:64
+#@ water-lily
+msgid "Archives"
+msgstr "Archives"
+
+#: content-none.php:13
+#@ water-lily
+msgid "Nothing Found"
+msgstr "Rien n'a été trouvé"
+
+#: content-none.php:28
+#@ water-lily
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Il n'est pas possible de trouver ce que vous voulez. Une recherche pourra vous aider."
+
+#: comments.php:37
+#: comments.php:54
+#@ water-lily
+msgid "Comment navigation"
+msgstr "Parcourir les commentaires"
+
+#: comments.php:38
+#: comments.php:55
+#@ water-lily
+msgid "&larr; Older Comments"
+msgstr "&larr; Commentaires plus anciens"
+
+#: comments.php:39
+#: comments.php:56
+#@ water-lily
+msgid "Newer Comments &rarr;"
+msgstr "Commentaires plus récents &rarr;"
+
+#: comments.php:66
+#@ water-lily
+msgid "Comments are closed."
+msgstr "Les commentaires sont fermés."
+
+#: content-page.php:18
+#: content-single.php:24
+#@ water-lily
+msgid "Pages:"
+msgstr "Pages :"
+
+#: content-page.php:23
+#: content-single.php:62
+#@ water-lily
+msgid "Edit"
+msgstr "Modifier"
+
+#. translators: used between list items, there is a space after the comma 
+#: content-single.php:32
+#: content-single.php:35
+#@ water-lily
+msgid ", "
+msgstr ", "
+
+#: functions.php:42
+#@ water-lily
+msgid "Primary Menu"
+msgstr "Menu principal"
+
+#: functions.php:72
+#@ water-lily
+msgid "Sidebar"
+msgstr "Barre de menu latérale"
+
+#: header.php:42
+#@ water-lily
+msgid "Skip to content"
+msgstr "Passer directement au contenu"
+
+#: content-none.php:19
+#, php-format
+#@ water-lily
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Prêt à publier votre premier article ? <a href=\"%1$s\">Commencez ici</a>."
+
+#: search.php:12
+#, php-format
+#@ water-lily
+msgid "Search Results for: %s"
+msgstr "Résultat de la recherche pour : %s"
+
+#: content-none.php:23
+#@ water-lily
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Désolé, mais rien ne correspond à vos données de recherche. Merci d'essayer avec des mots-clés différents."
+
+#: inc/template-tags.php:56
+#@ water-lily
+msgid "Post navigation"
+msgstr "Parcourir les articles"
+
+#: archive.php:25
+#, php-format
+#@ water-lily
+msgid "Author: %s"
+msgstr "Auteur: %s"
+
+#: archive.php:28
+#, php-format
+#@ water-lily
+msgid "Day: %s"
+msgstr "Jour: %s"
+
+#: archive.php:31
+#, php-format
+#@ water-lily
+msgid "Month: %s"
+msgstr "Mois: %s"
+
+#: archive.php:31
+#@ water-lily
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:34
+#, php-format
+#@ water-lily
+msgid "Year: %s"
+msgstr "Année: %s"
+
+#: archive.php:34
+#@ water-lily
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:37
+#@ water-lily
+msgid "Asides"
+msgstr "A coté"
+
+#: archive.php:40
+#@ water-lily
+msgid "Galleries"
+msgstr "Galeries"
+
+#: archive.php:43
+#@ water-lily
+msgid "Images"
+msgstr "Images"
+
+#: archive.php:46
+#@ water-lily
+msgid "Videos"
+msgstr "Videos"
+
+#: archive.php:49
+#@ water-lily
+msgid "Quotes"
+msgstr "Citations"
+
+#: archive.php:52
+#@ water-lily
+msgid "Links"
+msgstr "Liens"
+
+#: archive.php:55
+#@ water-lily
+msgid "Statuses"
+msgstr "Statuts"
+
+#: archive.php:58
+#@ water-lily
+msgid "Audios"
+msgstr "Audios"
+
+#: archive.php:61
+#@ water-lily
+msgid "Chats"
+msgstr "Conversations"
+
+#: comments.php:30
+#, php-format
+#@ water-lily
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Un commentaire sur &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s commentaires sur &ldquo;%2$s&rdquo;"
+
+#: content-single.php:40
+#, php-format
+#@ water-lily
+msgid "Tags: %2$s."
+msgstr "Mots-clés: %2$s."
+
+#: content-single.php:48
+#, php-format
+#@ water-lily
+msgid "Posted in: %1$s. Tags: %2$s."
+msgstr "Publié dans: %1$s. Étiqueté : %2$s."
+
+#: content-single.php:50
+#, php-format
+#@ water-lily
+msgid "Posted in: %1$s."
+msgstr "Publié dans : %1$s."
+
+#: footer.php:14
+#, php-format
+#@ water-lily
+msgid "Powered by %s"
+msgstr "Propulsé par"
+
+#: functions.php:128
+#@ water-lily
+msgctxt "Oswald font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:182
+#@ water-lily
+msgid "more"
+msgstr "la suite"
+
+#: header.php:41
+#@ water-lily
+msgid "Menu"
+msgstr "Menu"
+
+#: inc/customizer.php:18
+#: inc/customizer.php:20
+#@ water-lily
+msgid "Logo"
+msgstr "Logo"
+
+#: inc/customizer.php:25
+#@ water-lily
+msgid "Upload logo to replace the default site name ( 220px wide max )"
+msgstr "Téléchargez votre logo pour remplacer le nom par défaut du site ( 220px de large max )"
+
+#: inc/extras.php:63
+#, php-format
+#@ water-lily
+msgid "Page %s"
+msgstr "Page %s"
+
+#: inc/template-tags.php:23
+#@ water-lily
+msgid "Posts navigation"
+msgstr "Navigation dans les articles"
+
+#: inc/template-tags.php:27
+#: inc/template-tags.php:59
+#@ water-lily
+msgid "Previous"
+msgstr "Précédent"
+
+#: inc/template-tags.php:31
+#: inc/template-tags.php:60
+#@ water-lily
+msgid "Next"
+msgstr "Suivant"
+
+#: inc/template-tags.php:86
+#, php-format
+#@ water-lily
+msgid "<span class=\"posted-on\">%1$s</span>"
+msgstr "<span class=\"posted-on\">%1$s</span>"
+
+#: 404.php:18
+#@ water-lily
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Rien n'a été trouvé à cet emplacement. Essayez peut-être une nouvelle recherche ?"
+
+#: footer.php:16
+#, php-format
+#@ water-lily
+msgid "Theme by %1$s"
+msgstr "Thème par %1$s"
+
+#: functions.php:117
+#@ water-lily
+msgctxt "Noto Sans font: on or off"
+msgid "on"
+msgstr ""
+

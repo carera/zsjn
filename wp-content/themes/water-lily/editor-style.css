@@ -1,0 +1,175 @@
+/*
+Theme Name: Water Lily
+Description: Used to style the TinyMCE editor.
+*/
+html {
+	font-size: 62.5%;
+}
+html .mceContentBody {
+	max-width: 580px;
+}
+body {
+	color: #222;
+	font-family: 'Noto Sans', sans-serif;	
+	font-size: 16px;
+}
+h1,h2,h3,h4,h5,h6 {
+	clear: both;
+	font-family: 'Oswald', sans-serif;
+	line-height: 1.1em;
+}
+h1 {
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 42px;
+}
+h1.page-title {
+	font-size: 28px;
+	font-weight: 400;
+	line-height: 32px;
+}
+h2 {
+	font-size: 32px;
+	line-height: 46px;	
+}
+h3 {
+	font-size: 28px;
+	line-height: 32px;
+}
+h4, h5, h6 {
+	font-size: 20px;
+	line-height: 28px;
+}
+blockquote {
+  margin: 0 24px;
+  font-size: 20px;
+  line-height: 30px;
+  font-style: italic;
+}
+hr {
+  border: 1px solid #d2d1cf;
+  border-width: 0 0 1px 0;
+  height: 0;
+  margin-top: -1px;
+  margin-bottom: 24px;
+  padding-top: 24px;
+}
+p {
+	margin-bottom: 24px;
+}
+ul, ol {
+  	margin: 0 0 24px 36px;
+}
+ul {
+	list-style: disc;
+}
+ol {
+	list-style: decimal;
+}
+li > ul,
+li > ol {
+	margin-bottom: 0;
+	margin-left: 24px;
+}
+dt {
+	font-weight: bold;
+}
+dd {
+	margin: 0 24px 24px;
+}
+b, strong {
+	font-weight: bold;
+}
+dfn, cite, em, i {
+	font-style: italic;
+}
+blockquote {
+  margin: 0 24px;
+  font-size: 20px;
+  line-height: 30px;
+  font-style: italic;
+}
+address {
+  margin: 0 0 24px;
+}
+pre {
+  background: rgba(119, 119, 119, 0.5);
+  font-family: "Courier 10 Pitch", Courier, monospace;
+  font-size: 0.9375em;
+  line-height: 1.6em;
+  margin-top: -2px;
+  margin-bottom: 24px;
+  max-width: 100%;
+  overflow: auto;
+  padding: 24px;
+}
+code, kbd, tt, var {
+  font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+  font-size: 0.875em;
+  line-height: 1.71429em;
+}
+abbr, acronym {
+  border-bottom: 1px dotted #666;
+  cursor: help;
+}
+mark, ins {
+  background: #fff9c0;
+  text-decoration: none;
+}
+sup,
+sub {
+  font-size: 75%;
+  height: 0;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+  }sup {
+  bottom: 1ex;
+}
+sub {
+  top: .5ex;
+}
+small {
+  font-size: 75%;
+}
+big {
+  font-size: 125%;
+}
+figure {
+  margin: 0;
+}
+table {
+  margin: 0 0 24px;
+  width: 100%;
+}
+th {
+	font-weight: bold;
+}
+a {
+	color: #bbb;
+	text-decoration: none;
+}
+/* Images */
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 24px;
+}
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 24px;
+}
+.aligncenter {
+	clear: both;
+	display: block;
+	margin: 0 auto;
+}
+a img {
+	border: none;
+}
+.wp-caption {
+	border: 1px solid #ccc;
+	margin-bottom: 1.5em;
+	max-width: 100%;
+}

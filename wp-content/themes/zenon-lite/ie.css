@@ -1,0 +1,18 @@
+/*CSS FOR IE*/
+.scroll_title{ display:none!important;}
+.single_skew .skew_bottom_right{margin-top:-50px!important;}
+.skew_bottom_big{ width:968px;}
+.skew_bottom_right{ margin-top:-48px;}
+.single_skew_comm .skew_top_big{ width:629px;}
+.single_skew_comm .skew_top_right{ margin-top:-23px;}
+.skew_top_big{ margin-left:30px;}
+
+.easyslider img, .logo .inner-center img{ border:none!important;}
+.lay3_bridge{ display:none;}
+
+
+.lay1 .block_comm, .lay2 .block_comm, .lay3 .block_comm{ background:url(images/trans_black3.png) repeat;height:30px;}
+.lay1 .block_comm a, .lay2 .block_comm a, .lay3 .block_comm a, .lay1 .block_comm span, .lay2 .block_comm span, .lay3 .block_comm span{ color:#FFF; margin-left:0px!important; margin-top:-2px;}
+
+.social ul li, .social ul li:hover{ opacity:1!important;}
+

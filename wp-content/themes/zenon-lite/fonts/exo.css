@@ -1,0 +1,18 @@
+
+@font-face {
+	font-family: 'ExoMedium';
+	src: url('../fonts/exo/exo-medium-webfont.eot');
+	src: local('?'), url('../fonts/exo/exo-medium-webfont.woff') format('woff'), url('../fonts/exo/exo-medium-webfont.ttf') format('truetype'), url('../fonts/exo/exo-medium-webfont.svg#ExoMedium') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+h1, h2, h3, h4, h5, h6, .trt_button a, #submit_msg, #submit_msg, #submit, .fourofour a, .trt_wgt_tt, #related ul li a, .logo h1 a, #slider .slider-content h2 a, .lay1 .post .postitle a, .lay1 .page .postitle a, #posts .postitle, #posts .postitle a, .znn_wgt_tt{ font-family: 'ExoMedium'!important; font-weight:normal!important; text-transform:capitalize!important;}
+
+
+.logo h1 a{ font-size:30px;}
+#topmenu ul li a{ font-size:13px;font-family: 'ExoMedium'!important; font-weight:normal!important; text-transform:capitalize!important;}
+.scroll_title{font-size:30px; margin-left:-52px!important; margin-top:14px; top:10px; display:none;position:fixed;-webkit-transform: rotate(-90deg);-moz-transform: rotate(-90deg);-ms-transform: rotate(-90deg);-o-transform: rotate(-90deg);
+/* Internet Explorer */
+zoom:1;filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}

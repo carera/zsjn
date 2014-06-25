@@ -1,0 +1,315 @@
+/*-------------------------------------------------------------------------------------------*/
+/* OptionsFramework Admin Styles */
+/*-------------------------------------------------------------------------------------------*/
+
+.znn_logo{ background:url(../../images/ctrl_logo.png) no-repeat; width:90px; height:50px; margin-left:10px; margin-top:10px; float:left;}
+
+
+.appearance_page_options-framework .wrap{background:#f8f8f8;width:850px;padding:20px;margin-top:20px; border:1px solid #ececec;}
+.appearance_page_options-framework .wrap h2 {background:#fff; padding-right:0px; padding-top:0; border-bottom:0px; border:1px solid #ececec; width:850px;}
+
+h2 .nav-tab {font-size:14px; text-shadow:none;padding:25px 15px; border:none; border-right:1px solid #f3f3f3; margin:0; font-weight:bold;}
+#of-option-upgrade-tab{ border-right:0px;}
+.nav-tab-active{ background:#f7f7f7;}
+
+
+.sub_nav{ width:auto; text-align:center; margin-top:11px;}
+.sub_nav a{ background:#f8f8f8; border:1px solid #ececec;padding:10px 15px; cursor:pointer; border-right:none; color:#999; font-weight:bold;}
+.sub_nav a:last-child{ border-right:1px solid #ececec;}
+.sub_nav .znctrl_bloc, .sub_nav .znctrl_soc, .sub_nav .znctrl_wdgt, .sub_nav .znctrl_shrtcd, .sub_nav .znctrl_misc{ border-left:none;}
+.sub_nav .znctrl_curnt{ color:#444; background: #f8f8f8 url(../../images/znctrl_current.png) no-repeat center bottom;}
+#of-option-upgrade-tab{ color:#d54e21;}
+
+/*DOCUMMENTATION IMAGES*/
+#tab-docum, #tab_about, #tab_upg{ padding:20px;}
+#tab-docum p, #tab_about p{ line-height:18px;}
+#tab-docum h4, #tab_about h4, #tab_upg h4{ font-size:16px;}
+#tab-docum .sub_nav a{ margin-left:-3px;}
+#sub_log, #sub_shrt, #sub_misc{}
+.docum_slidermenu{ background:url(../../images/defaults/image021.gif) no-repeat; width:169px; height:178px;}
+.docum_sliderinter{ background:url(../../images/defaults/image023.jpg) no-repeat; width:361px; height:299px;}
+.docum_widgets{ background:url(../../images/defaults/widgets.jpg) no-repeat; width:500px; height:398px;}
+.docum_shortcodes{ background:url(../../images/defaults/image025.jpg) no-repeat; width:482px; height:245px; float:right;}
+
+/*ZENON PRO FEATURES TABLE*/
+#compare{ width:615px; border:1px solid #eee; margin:0 auto;}
+#compare tr, #compare td{ border:none;}
+#compare .head { background:#f0f0f0;}
+#compare .lite, #compare .pro{ text-align:center;}
+#compare .pro{ background:#E04B39; border-bottom:1px solid #d44635!important; color:#fff;}
+#compare .lite_top, #compare .pro_top{ background:#f0f0f0; text-align:center; }
+#compare .lite, #compare .pro, #compare .feat{ border-bottom:1px solid #ececec;}
+#compare .pro_top{color:#fff; background:#d44635;}
+#compare .feat{ background:#f3f3f3; border-right:1px solid #eee;}
+#compare .feat p{ padding-left:15px;}
+#compare .pro strong{color:#fff;}
+#compare .yes{ width:16px; height:16px;display:block; text-indent:-99999px; background:url(../images/tick.png) no-repeat; margin:0 auto; margin-top:10px;}
+#compare .no{ width:16px; height:16px;display:block; text-indent:-99999px; background:url(../images/cross.png) no-repeat; margin:0 auto; margin-top:10px;}
+
+
+.ctrl_shrtcd{ width:28px; height:28px; display:inline-block;}
+.znbttn{ background:url(../../images/defaults/image026.png) no-repeat;}
+.znlist1{ background:url(../../images/defaults/image028.png) no-repeat;}
+.znlist2{ background:url(../../images/defaults/image031.png) no-repeat;}
+.znlist3{ background:url(../../images/defaults/image034.png) no-repeat;}
+.znlist4{ background:url(../../images/defaults/image037.png) no-repeat;}
+.znlist5{ background:url(../../images/defaults/image040.png) no-repeat;}
+
+.znwarning{ background:url(../../images/defaults/image043.png) no-repeat;}
+.zninfo{ background:url(../../images/defaults/image045.png) no-repeat;}
+.znerror{ background:url(../../images/defaults/image047.png) no-repeat;}
+.znsuccess{ background:url(../../images/defaults/image049.png) no-repeat;}
+.znqot{ background:url(../../images/defaults/image051.png) no-repeat;}
+
+.znadsns{ background:url(../../images/defaults/image053.png) no-repeat;}
+.znfbthmb{ background:url(../../images/defaults/image070.png) no-repeat;}
+.znytb{ background:url(../../images/defaults/image066.png) no-repeat;}
+.znvmo{ background:url(../../images/defaults/image068.png) no-repeat;}
+.zntab{ background:url(../../images/defaults/image063.png) no-repeat;}
+.zntoggl{ background:url(../../images/defaults/image055.png) no-repeat;}
+.zn2clms{ background:url(../../images/defaults/image057.png) no-repeat;}
+.zn3clms{ background:url(../../images/defaults/image059.png) no-repeat;}
+.zn4clms{ background:url(../../images/defaults/image061.png) no-repeat;}
+
+
+.updated {
+	max-width:850px;
+	margin-bottom:0px !important;
+}
+#optionsframework {
+	position:relative;
+	z-index: 0;
+	max-width:850x;
+	background:#fff;
+	border:1px solid #ececec;
+	margin-top:10px;
+}
+#optionsframework h3 { display:none;}
+#optionsframework p {
+	margin-bottom:0;
+	padding-bottom:10px;
+}
+#optionsframework .section {
+	padding:10px 10px 0;
+}
+#optionsframework .group {
+	padding-bottom:40px;
+	line-height:17px;
+}
+#optionsframework .section .heading {
+	padding:10px 0px;
+	margin:0 0 15px;
+	border-bottom: 1px solid #f3f3f3;
+	color:#888;
+}
+#optionsframework .section .controls {
+	float: left;
+	min-width:350px;
+	width: 54%;
+	padding-right:2%;
+}
+#optionsframework .section .explain {
+	max-width:38%;
+	float: left;
+	font-size: 12px;
+	line-height:16px;
+	color: #777;
+}
+#optionsframework .section-checkbox .controls {
+	width: 98%;
+}
+#optionsframework .section-checkbox .explain {
+	max-width:94%;
+}
+#optionsframework .section-color .controls {
+	min-width:125px;
+	width:125px
+}
+#optionsframework .controls input, #optionsframework .controls select, #optionsframework .controls textarea {
+	margin-bottom:10px;
+	width:100%;
+}
+#optionsframework .section-radio label, #optionsframework .section-multicheck label {
+	float:left;
+	max-width:90%;
+	line-height: 16px;
+	margin-bottom: 5px;
+}
+#optionsframework input.checkbox, #optionsframework input.of-radio {
+	width: 30px;
+	float:left;
+	clear:both;
+}
+#optionsframework .controls .of-color {
+	float:left;
+	width: 80px;
+	margin-left:5px;
+	margin-right:5px;
+}
+#optionsframework .controls .of-typography-size {
+	width:80px;
+	margin-left:5px;
+	float:left
+}
+#optionsframework .controls .of-typography-unit {
+	width:50px;
+	margin-left:5px;
+	float:left
+}
+#optionsframework .controls .of-typography-face {
+	width:100px;
+	margin-left:5px;
+	float:left
+}
+#optionsframework .controls .of-typography-style {
+	width:80px;
+	margin-left:5px;
+	margin-right:5px;
+	float:left
+}
+#optionsframework .of-background-properties {
+	clear:both;
+	margin-top: 18px;	
+}
+#optionsframework .controls .of-background-repeat {
+	width:125px;
+	margin-right:5px;
+	float:left
+}
+#optionsframework .controls .of-background-position {
+	width:125px;
+	margin-right:5px;
+	float:left
+}
+#optionsframework .controls .of-background-attachment {
+	width:125px;
+	margin-right:5px;
+	float:left
+}
+#optionsframework div.section-background .controls input.upload {
+	width:47%;
+}
+#optionsframework .controls .of-radio-img-img {
+	border:3px solid #f9f9f9;
+	margin:0 5px 10px 0;
+	display:none;
+	cursor:pointer;
+	float:left;
+}
+#optionsframework .controls .of-radio-img-selected {
+	border:3px solid #ccc
+}
+#optionsframework .controls .of-radio-img-img:hover {
+	opacity:.8;
+}
+#optionsframework .controls .of-border-width {
+	width:80px;
+	float:left
+}
+#optionsframework .controls .of-border-style {
+	width:120px;
+	float:left
+}
+#optionsframework .hide {
+	display:none;
+}
+#optionsframework .of-option-image {
+	max-width:340px;
+	margin:3px 0 18px 0;
+}
+#optionsframework .mini .controls select, #optionsframework .section .mini .controls {
+	width: 140px;
+}
+#optionsframework .mini .controls input, #optionsframework .mini .controls {
+	min-width:140px;
+	width: 140px;
+}
+#optionsframework .mini .explain {
+	max-width:74%;
+}
+
+/* Editor */
+
+#optionsframework .section-editor .explain {
+	float:none;
+	margin-bottom:5px;
+}
+
+/* Image Uploader */
+
+#optionsframework .controls input.upload {
+	width:80%;
+}
+#optionsframework .controls input.upload_button {
+	float:right;
+	width:45px;
+	border-color:#BBBBBB;
+	cursor:pointer;
+	height:16px;
+}
+#optionsframework .controls input.upload_button:hover {
+	border-color:#666666;
+	color:#000;
+}
+#optionsframework .screenshot {
+	float:left;
+	margin-left:1px;
+	position:relative;
+	width:344px;
+	margin-top:3px;
+}
+#optionsframework .screenshot img {
+	background:#FAFAFA;
+	border-color:#ccc #eee #eee #ccc;
+	border-style:solid;
+	border-width:1px;
+	float:left;
+	max-width:334px;
+	padding:4px;
+	margin-bottom:10px;
+}
+#optionsframework .screenshot .mlu_remove {
+	background:url("../images/ico-delete.png") no-repeat;
+	border:medium none;
+	bottom:4px;
+	display:block;
+	float:left;
+	height:16px;
+	padding:0;
+	position:absolute;
+	left:-4px;
+	text-indent:-9999px;
+	width:16px;
+}
+#optionsframework .screenshot .no_image .file_link {
+	margin-left: 20px;
+}
+#optionsframework .screenshot .no_image .mlu_remove {
+	bottom: 0px;
+}
+#optionsframework .reset-button {
+	float:left;
+	cursor:pointer;
+}
+
+/* Bottom Section */
+
+#optionsframework-submit {
+	padding: 7px 10px;
+	border-top: 1px solid #ECECEC;
+	background-color: #F1F1F1;
+    background-image: -moz-linear-gradient(center top , #F9F9F9, #ECECEC);
+}
+#optionsframework .button-primary {
+	float:right;
+}
+
+/* Bottom Section */
+
+#optionsframework .section:before, #optionsframework .section:after {
+	content: "";
+	display: table;
+}
+#optionsframework .section:after {
+	clear: both;
+}
